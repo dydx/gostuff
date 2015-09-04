@@ -34,4 +34,7 @@ func main() {
       fmt.Println("recieved", msg2)
     }
   }
+
+  // on a side note, you'll see that execution time is only
+  // 2 seconds, since both operations are happening concurrently
 }
