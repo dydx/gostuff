@@ -7,6 +7,7 @@ import (
 
 func worker(done chan bool) {
   fmt.Print("Working...")
+
   time.Sleep(time.Second)
   fmt.Println("done")
 
